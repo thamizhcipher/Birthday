@@ -4,7 +4,7 @@ var frame=document.querySelector('.frame')
 function loadDate(){
     
 
-    var countDate= new Date(2021,7,18,00)
+    var countDate= new Date(2021,10,18,00)
     var now= new Date().getTime();
     var gap=countDate-now;
     var second=1000
